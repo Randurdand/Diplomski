@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Galerija</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbutton"><i class="fas fa-bars"></i></label>
+          <span class="ime-kluba">Šahovski klub Sombor</span>
+          <ul>
+            <li><a href="../index.html">Pocetna</a></li>
+            <li><a href="../obavestenja.html">Obavestenja</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="../clanstvo/clanstvo.html">Clanstvo</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="album-root">
+        <section class="hero">
+          <h1>Foto-album kluba</h1>
+          <p id="album-opis">Učitavam opis…</p>
+        </section>
+    
+        <section class="album-frame">
+          <div class="album-controls">
+            <button id="btn-prev" class="nav-btn" aria-label="Prethodna">⟵ Prethodna</button>
+            <div id="page-indicator" aria-live="polite">Strana 1/7</div>
+            <button id="btn-next" class="nav-btn" aria-label="Sledeća">Sledeća ⟶</button>
+          </div>
+    
+          <div id="album-grid" class="album-grid" aria-live="polite">
+            <!-- JS ubacuje 3 <figure> po strani -->
+          </div>
+    
+          <div class="album-controls bottom">
+            <button id="btn-prev-bottom" class="nav-btn" aria-label="Prethodna">⟵ Prethodna</button>
+            <div id="page-indicator-bottom">Strana 1/7</div>
+            <button id="btn-next-bottom" class="nav-btn" aria-label="Sledeća">Sledeća ⟶</button>
+          </div>
+        </section>
+      </main>
+    
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" hidden>
+        <div class="lightbox-backdrop"></div>
+        <div class="lightbox-content" role="dialog" aria-modal="true" aria-label="Pregled fotografije">
+          <button id="lightbox-close" class="lightbox-close" aria-label="Zatvori">×</button>
+          <button id="lightbox-prev" class="lightbox-nav" aria-label="Prethodna">⟵</button>
+          <img id="lightbox-image" alt="">
+          <div id="lightbox-caption" class="lightbox-caption"></div>
+          <button id="lightbox-next" class="lightbox-nav" aria-label="Sledeća">⟶</button>
+        </div>
+      </div>
+      
+      <footer class="footer">
+        <div class="container">
+          <p>E-mail: <a href="mailto:kontakt@sahovskiklub.com">kontakt@sahovskiklub.com</a></p>
+          <p>Telefon: +381 11 123 4567</p>
+          <p>Adresa: Ulica Šahista 123, Sombor, Srbija</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/tvojklub" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/tvojklub" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </footer>
+    
+      <script defer src="galerija.js"></script>
+</body>
+</html>

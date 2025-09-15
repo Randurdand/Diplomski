@@ -1,0 +1,21 @@
+{
+    "albums": [
+      {
+        "id": "glavni_album",
+        "naziv": "Klupski Foto-Album",
+        "lokacija": "Sombor",
+        "datum": "2024-01-15",
+        "opis": "Izabrane fotografije sa klupskih događaja. Svaka slika ima kratku priču u opisu.",
+        "cover": "slike/AlbumSlika1.jpg",
+        "slike": [
+          "AlbumSlika1.jpg", "AlbumSlika2.jpg", "AlbumSlika3.jpg",
+          "AlbumSlika4.jpg", "AlbumSlika5.jpg", "AlbumSlika6.jpg",
+          "AlbumSlika7.jpg", "AlbumSlika8.jpg", "AlbumSlika9.jpg",
+          "AlbumSlika10.jpg", "AlbumSlika11.jpg", "AlbumSlika12.jpg",
+          "AlbumSlika13.jpg", "AlbumSlika14.jpg", "AlbumSlika15.jpg",
+          "AlbumSlika16.jpg", "AlbumSlika17.jpg", "AlbumSlika18.jpg",
+          "AlbumSlika19.jpg", "AlbumSlika20.jpg", "AlbumSlika21.jpg"
+        ]
+      }
+    ]
+  }

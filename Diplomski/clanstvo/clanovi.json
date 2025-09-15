@@ -1,0 +1,128 @@
+{
+    "stats": {
+      "aktivnih_clanova": 10
+    },
+    "clanovi": [
+      {
+        "id": "m_jovanovic",
+        "ime": "Marko",
+        "prezime": "Jovanović",
+        "fide_id": "91234567",
+        "fide_titula": "FM",
+        "fide_standard": 2210,
+        "fide_rapid": 2285,
+        "fide_blitz": 2240,
+        "godina_rodjenja": 1995,
+        "foto": "slike/ProfilnaSlika.jpg"
+      },
+      {
+        "id": "a_petrovic",
+        "ime": "Ana",
+        "prezime": "Petrović",
+        "fide_id": null,
+        "fide_titula": null,
+        "fide_standard": 1520,
+        "fide_rapid": 1600,
+        "fide_blitz": 1580,
+        "godina_rodjenja": 2008,
+        "foto": "slike/ProfilnaSlika.jpg"
+      },
+      {
+        "id": "n_ilic",
+        "ime": "Nikola",
+        "prezime": "Ilić",
+        "fide_id": "91333421",
+        "fide_titula": null,
+        "fide_standard": 1850,
+        "fide_rapid": 1905,
+        "fide_blitz": 1940,
+        "godina_rodjenja": 2001,
+        "foto": "slike/ProfilnaSlika.jpg"
+      },
+      {
+        "id": "j_kovacevic",
+        "ime": "Jelena",
+        "prezime": "Kovačević",
+        "fide_id": null,
+        "fide_titula": null,
+        "fide_standard": 1670,
+        "fide_rapid": 1710,
+        "fide_blitz": 1735,
+        "godina_rodjenja": 1999,
+        "foto": "slike/ProfilnaSlika.jpg"
+      },
+      {
+        "id": "d_milosevic",
+        "ime": "Dejan",
+        "prezime": "Milošević",
+        "fide_id": "91299888",
+        "fide_titula": null,
+        "fide_standard": 2010,
+        "fide_rapid": 2060,
+        "fide_blitz": 2095,
+        "godina_rodjenja": 1988,
+        "foto": "slike/ProfilnaSlika.jpg"
+      },
+      {
+        "id": "l_stojanovic",
+        "ime": "Luka",
+        "prezime": "Stojanović",
+        "fide_id": null,
+        "fide_titula": null,
+        "fide_standard": 1605,
+        "fide_rapid": 1650,
+        "fide_blitz": 1700,
+        "godina_rodjenja": 2006,
+        "foto": "slike/ProfilnaSlika.jpg"
+      },
+      {
+        "id": "t_markovic",
+        "ime": "Tijana",
+        "prezime": "Marković",
+        "fide_id": "91311234",
+        "fide_titula": "WFM",
+        "fide_standard": 2050,
+        "fide_rapid": 2090,
+        "fide_blitz": 2110,
+        "godina_rodjenja": 1997,
+        "foto": "slike/ProfilnaSlika.jpg"
+      },
+      {
+        "id": "p_savic",
+        "ime": "Petar",
+        "prezime": "Savić",
+        "fide_id": null,
+        "fide_titula": null,
+        "fide_standard": 1490,
+        "fide_rapid": 1540,
+        "fide_blitz": 1590,
+        "godina_rodjenja": 2010,
+        "foto": "slike/ProfilnaSlika.jpg"
+      },
+      {
+        "id": "m_todorovic",
+        "ime": "Mina",
+        "prezime": "Todorović",
+        "fide_id": "91277654",
+        "fide_titula": null,
+        "fide_standard": 1930,
+        "fide_rapid": 1980,
+        "fide_blitz": 1965,
+        "godina_rodjenja": 1993,
+        "foto": "slike/ProfilnaSlika.jpg"
+      },
+      {
+        "id": "v_ivanovic",
+        "ime": "Vladimir",
+        "prezime": "Ivanović",
+        "fide_id": null,
+        "fide_titula": null,
+        "fide_standard": 1720,
+        "fide_rapid": 1775,
+        "fide_blitz": 1810,
+        "godina_rodjenja": 1985,
+        "foto": "slike/ProfilnaSlika.jpg"
+      }
+    ]
+  }
+  
